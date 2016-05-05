@@ -37,7 +37,7 @@ var fn_Util = {
 	            myScroll.scrollTo(0, -hideHeight);
 	            head.removeClass('up');
 	        } else if (this.y >= 0) {
-	            head.attr('src', 'http://home.com/langfang/images/home/ajax-loader.gif');
+	            head.attr('src', '/langfang/images/home/ajax-loader.gif');
 	            //TODO ajax下拉刷新数据
 	            var time=new Date;
             	var hour = time.getHours();
@@ -47,7 +47,7 @@ var fn_Util = {
 	            setTimeout(function () {
 	                myScroll.scrollTo(0, -hideHeight);
 	                head.removeClass('up');
-	                head.attr('src', 'http://home.com/langfang/images/home/arrow.png');
+	                head.attr('src', '/langfang/images/home/arrow.png');
 	            }, 1000);
 	        }   
         })

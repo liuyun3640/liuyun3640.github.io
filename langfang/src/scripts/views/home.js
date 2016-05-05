@@ -30,7 +30,7 @@ SPA.defineView('home',{
 			self.vm=self.getVM();
 			
 			$.ajax({
-				url:"http://home.com/langfang/src/scripts/json/home.json",
+				url:"/langfang/src/scripts/json/home.json",
 				success:function(data){
 					self.vm.bannerlist = data.banner;
 					self.vm.navlist = data.navimg;
