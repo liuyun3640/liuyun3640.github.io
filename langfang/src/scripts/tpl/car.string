@@ -1,0 +1,11 @@
+<div class="car">
+	<p class="cartop">购物车</p>
+	<div class="carlog">
+		<div>
+			<i><img src="/langfang/images/car/car_03.png"/></i>
+		</div>
+		<p>您的交易内还没有任何信息</p>
+		<p>是否立即登录</p>
+		<input action-type="switch.login" type="button" value="登录"/>
+	</div>
+</div>

@@ -1,0 +1,8 @@
+<div class="swiper-container guide-swiper" id="guide-swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/langfang/images/guide/yindao_iv1.jpg" /></div>
+        <div class="swiper-slide"><img src="/langfang/images/guide/yindao_iv2.jpg" /></div>
+        <div class="swiper-slide"><img src="/langfang/images/guide/yindao_iv3.jpg" /></div>
+        <div class="swiper-slide" action-type="goto.index"><img src="/langfang/images/guide/yindao_iv4.jpg" /></div>
+    </div>
+</div>

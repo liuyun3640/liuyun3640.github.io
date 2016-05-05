@@ -1,0 +1,116 @@
+.login{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url(/langfang/images/loginin/loginbg.png) no-repeat center center;
+    >ul{
+        &:first-child{
+            height: .4rem;
+            width: 100%;
+            position: relative;
+            @include flexbox(flex);
+            @include flex-direction(row);
+            li{
+                height: .4rem;
+                text-align: center;
+                line-height: .4rem;
+                color: #fff;
+                font-size: .13rem;
+                font-family: "微软雅黑";
+                &:first-child{
+                    position: absolute;
+                    left: .12rem;
+                    top: center;
+                }
+                &:last-child{
+                    font-size: .16rem;
+                    @include flex(1);
+                }
+            }
+        }
+        &:last-child{
+            height: .53rem;
+            width: 100%;
+            font-size: .15rem;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            @include flexbox(flex);
+            li{
+                height: 100%;
+                line-height: .53rem;
+                text-align: center;
+                color: #fff;
+                &:first-child{
+                    width: .6rem;
+                }
+                &:last-child{
+                    width: .9rem;
+                }
+                &:nth-child(2){
+                    @include flex(1);
+                }
+            }
+        }
+    }
+    .logintop{
+        height:1.05rem;
+        width: 100%;
+        @include flexbox(flex);
+        @include justify-content(center);
+        @include align-items(center);
+        >div{
+            background: #fff;
+            height: .9rem;
+            width: .9rem;
+            @include box-sizing(border-box);
+            @include border(1px,#fff,solid,50%);
+            @include justify-content(center);
+            i{
+                height: .9rem;
+                width: .9rem;
+                text-align: center;
+                line-height: center;
+                font-size: .54rem;
+                color: #ff9933;
+                display: block;
+            }
+        }
+    }
+    .form{
+        width: 100%;
+        height: 1.45rem;
+        padding:0 .22rem;
+        margin-top: .28rem;
+        @include box-sizing(border-box);
+        @include flexbox(flex);
+        @include flex-direction(column);
+        input{
+            height: .4rem;
+            width: 100%;
+            line-height: .4rem;
+            padding:0 .3rem;
+            border: none;
+            font-size: .15rem;
+            background: none;
+            border-bottom: 1px solid #fff;
+            @include box-sizing(border-box);
+            &#btn{
+                background: #fff;
+                color: #fc5600;
+                height: .35rem;
+                margin-top: .2rem;
+                border: 1px solid #fc5600;
+                border-radius: .17rem;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+
+<div class="homeSearch">
+	<div class="homeinput"> 
+		<div>
+			<input type="button" value="按钮" />
+			<input type="text" id="hometxt" placeholder="搜索团购 商家 地址"/>
+		</div>
+	</div>
+	<i class="yo-ico">&#xe63b;</i>
+</div>
+<div class="homescrool" id="homescroll">
+	<div>
+		<div class="head">
+            <img src="http://home.com/langfang/images/home/arrow.png"/>
+            <span>下拉刷新...</span>
+            <span>最近更新<span ms-html="time"></span></span>
+        </div>
+		<div class="homeBanner">
+			<div class="swiper-container guide-swiper" id="banner-swiper">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide" ms-repeat="bannerlist"><img ms-src="el.src" /></div>
+			    </div>
+			    <div class="swiper-pagination" id="pagination"></div>
+			</div>
+		</div>
+		
+		<div class="navMore">
+			<ul>
+				<li ms-repeat="navlist">
+					<i><img ms-src="el.img"/></i>
+					<p ms-html="el.title"></p>
+				</li>
+			</ul>
+			<ul>
+				<li ms-repeat="navlist1">
+					<i><img ms-src="el.img"/></i>
+					<p ms-html="el.title"></p>
+				</li>
+			</ul>
+		</div>
+		<div class="homepro">
+			<div class="hot">
+				<i> 啤酒节·秒杀</i>
+				<i>倒计时</i>
+				<i>更多></i>
+			</div>
+			<ul>
+				<li ms-repeat="homepro">
+					<i><img ms-src="el.img"/></i>
+					<p ms-html="el.title"></p>
+					<span ms-html="el.price"></span>
+				</li>
+			</ul>
+			<p class="hots">啤酒节</p>
+			<ul ms-repeat="homepros">
+				<li>
+					<i><img ms-src="el[0].img"/></i>
+					<p ms-html="el[0].title"></p>
+					<b>销量：<span ms-html="el[0].sale"></span></b>
+					<span ms-html="el[0].price"></span>
+				</li>
+				<li>
+					<i><img ms-src="el[1].img"/></i>
+					<p ms-html="el[1].title"></p>
+					<b>销量：<span ms-html="el[1].sale"></span></b>
+					<span ms-html="el[1].price"></span>
+				</li>
+				<li>
+					<i><img ms-src="el[2].img"/></i>
+					<p ms-html="el[2].title"></p>
+					<b>销量：<span ms-html="el[2].sale"></span></b>
+					<span ms-html="el[2].price"></span>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

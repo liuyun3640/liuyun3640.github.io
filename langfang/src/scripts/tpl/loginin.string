@@ -1,0 +1,21 @@
+<div class="login">
+	<ul>
+		<li action-type="cnacle">取消</li>
+		<li>登录</li>
+	</ul>
+	<div class="logintop">
+		<div>
+			<i class="yo-ico">&#xe658;</i>
+		</div>
+	</div>
+	<div class="form">
+		<input type="text" placeholder="输入您的手机号"/>
+		<input type="text" placeholder="请输入密码"/>
+		<input type="button" id="btn" value="登录" />
+	</div>
+	<ul>
+		<li>注册</li>
+		<li></li>
+		<li>忘记密码</li>
+	</ul>
+</div>

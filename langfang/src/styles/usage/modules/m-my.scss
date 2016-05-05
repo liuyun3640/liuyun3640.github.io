@@ -1,0 +1,182 @@
+.mycontent{
+    width: 100%;
+    height: 100%;
+    @include flexbox(flex);
+    @include flex-direction(column);
+    header{
+        width: 100%;
+        height: .36rem;
+        line-height: .36rem;
+        text-align: center;
+        background: #f9f9f9;
+        color: #202020;
+        font-size: .15rem;
+        font-family: "微软雅黑";
+        font-weight: bold;
+        padding-top: .22rem;
+        @include border(0 0 1px 0,#e4e1dd,solid,null);
+    }
+    .myscroll{
+        @include flex(1);
+        width: 100%;
+        overflow: hidden;
+        >div{
+            @include flexbox(flex);
+            @include flex-direction(column);
+            height: 100%;
+            width: 100%; 
+            .mytop{
+                background: #ff9933;
+                height:1rem;
+                width: 100%;
+                @include flexbox(flex);
+                @include justify-content(center);
+                @include align-items(center);
+                >div{
+                    height:.73rem;
+                    width: .73rem;
+                    background: #ffefde;
+                    overflow: hidden;
+                    @include border(4px,#ffb972,solid,50%);
+                    @include box-sizing(border-box);
+                    i,span{
+                        width: 100%;
+                        text-align: center;
+                        color: #818387;
+                        display: block;
+                    }
+                    i{
+                        font-size: .3rem;
+                        color: #777a7f;
+                    }
+                    span{
+                        width: 100%;
+                        font-size: .1rem;
+                        margin-top: -0.05rem;
+                    }
+                    
+                }
+            }
+            >ul{
+                height: .43rem;
+                width: 100%;
+                background: #e5892e;
+                @include flexbox(flex);
+                @include flex-direction(row);
+                @include justify-content(center);
+                @include align-items(center);
+                li{
+                    @include flex(1);
+                    height: .3rem;
+                    width: 100%;
+                    &:nth-child(2){
+                        @include border(0 1px 0 1px,#fff,solid,null);
+                    }
+                    i,span{
+                        width: 100%;
+                        text-align: center;
+                        color: #fff;
+                        display: block;
+                    }
+                    i{
+                        font-size: .18rem;
+                        margin-top: -0.04rem;
+                    }
+                    span{
+                        font-size: .1rem;
+                        margin-top: -0.04rem;
+                    }
+                }
+            }
+            .ullist{
+                ul{
+                    background: #fff;
+                    width: 100%;
+                    padding-left: .08rem;
+                    margin-bottom: .09rem;
+                    @include border(1px 0 2px 0,#e2e2e5,solid,null);
+                    @include flexbox(flex);
+                    @include flex-direction(column);
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                    li{
+                        @include flexbox(flex);
+                        @include justify-content(center);
+                        @include align-items(center);
+                        @include flex-direction(row);
+                        @include flex(1);
+                        @include box-sizing(border-box);
+                        @include border(0 0 1px 0,#e2e2e5,solid,null);
+                        width: 100%;
+                        height: .4rem;
+                        >i{
+                            width:.22rem;
+                            height: .22rem;
+                            margin-left: .05rem;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        >p{
+                            @include flex(1);
+                            padding-left: .09rem;
+                            height: .4rem;
+                            line-height: .4rem;
+                            font-size: .13rem;
+                            color: #292e30;
+                        }
+                        >b{
+                            font-size: .24rem;
+                            color: #d1d1d1;
+                            width: .3rem;
+                            height: .35rem;
+                            padding-right: .1rem;
+                            font-weight: normal;
+                            font-family: arial;
+                        }
+                        &:last-child{
+                            @include border(0 0 0 0,#e2e2e5,solid,null);
+                        }
+                    }
+                }
+            }
+            .close{
+               width: 100%;
+               height: .57rem;
+               padding: .08rem .15rem;
+               @include box-sizing(border-box);
+               input{
+                    height: 100%;
+                    width: 100%;
+                    background: #fe6807;
+                    color: #fff;
+                    font-size: .15rem;
+                    font-family: "微软雅黑";
+                    border: none;
+                    border-radius: 6px;
+                } 
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

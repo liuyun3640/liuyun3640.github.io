@@ -1,0 +1,117 @@
+{
+	"banner":[
+		{
+			"src":"/langfang/images/home/banner_02.jpg"
+		},
+		{
+			"src":"/langfang/images/home/banner_02.jpg"
+		},
+		{
+			"src":"/langfang/images/home/banner_02.jpg"
+		},
+		{
+			"src":"/langfang/images/home/banner_02.jpg"
+		},
+		{
+			"src":"/langfang/images/home/banner_02.jpg"
+		},
+		{
+			"src":"/langfang/images/home/banner_02.jpg"
+		}
+	],
+	"navimg":[
+		{
+			"img":"/langfang/images/home/main_03.png",
+			"title":"天天战豆"
+		},{
+			"img":"/langfang/images/home/main_05.png",
+			"title":"休闲商城"
+		},{
+			"img":"/langfang/images/home/main_07.png",
+			"title":"购物商城"
+		},{
+			"img":"/langfang/images/home/main_09.png",
+			"title":"政务信息"
+		}
+	],
+	"navimg1":[
+		{
+			"img":"/langfang/images/home/main_15.png",
+			"title":"手机充值"
+		},
+		{
+			"img":"/langfang/images/home/main_16.png",
+			"title":"美食每客"
+		},{
+			"img":"/langfang/images/home/main_17.png",
+			"title":"违章查询"
+		},{
+			"img":"/langfang/images/home/main_18.png",
+			"title":"天天鲜奶"
+		}
+	],
+	"homepro":[
+		{
+			"img":"/langfang/images/home/homepro_03.jpg",
+			"title":"budweiser 百威 啤酒纯生 500ml*12",
+			"price":"￥79.90"
+		},{
+			"img":"/langfang/images/home/homepro_05.jpg",
+			"title":"青岛啤酒  冰醇 600ml*12 新老装",
+			"price":"￥35.50"
+		},{
+			"img":"/langfang/images/home/homepro_03.jpg",
+			"title":"可口可乐2L*6塑料包装",
+			"price":"￥24.00"
+		}
+	],
+	"homepros":[
+		{
+			"img":"/langfang/images/home/IMG_4443_03.png",
+			"title":"呼吸宝 金银花百合植物饮料310ml*24",
+			"sale":"34",
+			"price":"￥98.00"
+		},{
+			"img":"/langfang/images/home/IMG_4443_05.png",
+			"title":"嘉士伯冰纯啤酒600ml*12听 整箱",
+			"sale":"25",
+			"price":"￥24.00"
+		},{
+			"img":"/langfang/images/home/IMG_4443_07.png",
+			"title":"嘉士伯冰纯啤酒500ml*12听 整箱",
+			"sale":"35",
+			"price":"￥24.00"
+		},{
+			"img":"/langfang/images/home/IMG_4443_12.png",
+			"title":"乐堡啤酒 500ml*12瓶装 整箱",
+			"sale":"33",
+			"price":"￥24.00"
+		},{
+			"img":"/langfang/images/home/IMG_4443_13.png",
+			"title":"乐堡啤酒 500ml*12听 整箱",
+			"sale":"11",
+			"price":"￥24.00"
+		},{
+			"img":"/langfang/images/home/pro_03.png",
+			"title":"达利园200g软面包  2袋装",
+			"sale":"25",
+			"price":"￥14.9"
+		},{
+			"img":"/langfang/images/home/pro_07.png",
+			"title":"达利园派 草莓、香草250g  2袋装",
+			"sale":"25",
+			"price":"￥14.9"
+		},{
+			"img":"/langfang/images/home/pro_09.png",
+			"title":"长宏金星 桃罐头铁盒 822g",
+			"sale":"45",
+			"price":"￥17.5"
+		},{
+			"img":"/langfang/images/home/pro_11.png",
+			"title":"太阳锅巴50g（麻辣、牛肉、五香）",
+			"sale":"28",
+			"price":"￥13.50"
+		}
+	]
+	
+}

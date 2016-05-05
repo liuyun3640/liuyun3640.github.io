@@ -1,0 +1,54 @@
+.m-index{
+    @include flexbox(flex);
+    @include flex-direction(column);
+    height: 100%;
+    width: 100%;
+    .index-content{
+        @include flex(1);
+        @include flexbox(flex);
+        @include flex-direction(column);
+        width: 100%;
+        background: white;
+        position: relative;
+    }
+    footer{
+        @include border(1px 0 0 0,#e9e9e9,solid,null);
+        @include box-sizing(border-box);
+        height: .5rem; 
+        width: 100%;
+        background: #f9f9f9;
+        ul{
+            @include flexbox(flex);
+            width: 100%;
+            height: 100%;
+            li{
+                @include flex(1);
+                @include justify-content(center);
+                @include align-items(center);
+                padding-top: .05rem;
+                i,b{
+                    display: block;
+                    width:100%;
+                    text-align: center;
+                    color: #929292;
+                }
+                i{
+                   font-size:.18rem;
+                }
+                b{
+                   font-size: .12rem;
+                    font-weight: normal;
+                }
+               &.active{
+                   i{
+                      color: #ff8000; 
+                   }
+                   b{
+                       color: #ff8000;
+                   }
+               } 
+            }
+        }
+        
+    }
+}
