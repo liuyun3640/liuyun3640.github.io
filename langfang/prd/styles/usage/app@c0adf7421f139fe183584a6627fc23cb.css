@@ -100,8 +100,8 @@ a{color:#00afc7}
 .g-clear::after,.g-mod::after{display:block;overflow:hidden;clear:both;height:0;content:"\0020"}
 @font-face{font-family:yofont;src:url("http://source.qunarzz.com/fonts/yo/1.0.0/yofont.woff") format("woff"),url("http://source.qunarzz.com/fonts/yo/1.0.0/yofont.ttf") format("truetype")}
 .yo-ico{font-family:yofont!important;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;vertical-align:middle}
-@font-face{font-family:yofont;src:url("http://home.com/langfang/images/iconfont/iconfont.woff") format("woff"),url("http://home.com/langfang/images/iconfont/iconfont.ttf") format("truetype")}
-@font-face{font-family:yofont;src:url("http://home.com/langfang/images/iconfont1/iconfont.woff") format("woff"),url("http://home.com/langfang/images/iconfont1/iconfont.ttf") format("truetype")}
+@font-face{font-family:yofont;src:url("/langfang/images/iconfont/iconfont.woff") format("woff"),url("/langfang/images/iconfont/iconfont.ttf") format("truetype")}
+@font-face{font-family:yofont;src:url("/langfang/images/iconfont1/iconfont.woff") format("woff"),url("/langfang/images/iconfont1/iconfont.ttf") format("truetype")}
 body{background-color:#fff!important}
 spa-app{position:absolute;overflow:hidden}
 spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background:#efeff4!important;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column}
