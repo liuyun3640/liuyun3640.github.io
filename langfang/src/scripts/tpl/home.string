@@ -11,7 +11,7 @@
 <div class="homescrool" id="homescroll">
 	<div>
 		<div class="head">
-            <img src="http://home.com/langfang/images/home/arrow.png"/>
+            <img src="/langfang/images/home/arrow.png"/>
             <span>下拉刷新...</span>
             <span>最近更新<span ms-html="time"></span></span>
         </div>
